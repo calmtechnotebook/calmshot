@@ -190,6 +190,28 @@
     animation: fadeUp 0.9s ease forwards 0.7s;
   }
 
+  .platform-note {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 16px;
+    padding: 8px 14px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: rgba(255,255,255,0.03);
+    color: var(--grey-1);
+    font-size: 12px;
+    line-height: 1.4;
+    letter-spacing: 0.01em;
+  }
+
+  .platform-note svg {
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+    fill: currentColor;
+  }
+
   /* ─── SCREENSHOTS ─── */
   .screenshots-section {
     padding: 80px 24px 100px;
@@ -1222,6 +1244,11 @@
     <span class="en">No subscription. No tracking. No cloud required.</span>
     <span class="fr">Aucun abonnement. Aucun pistage. Aucun nuage requis.</span>
   </p>
+  <p class="platform-note">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-6l1 2h2v1H7v-1h2l1-2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Zm0 2v10h16V6H4Z"/></svg>
+    <span class="en">Also available on macOS for horizontal recording.</span>
+    <span class="fr">Aussi disponible sur macOS pour le tournage horizontal.</span>
+  </p>
 </section>
 
 <!-- ══════════════ SCREENSHOTS ══════════════ -->
@@ -1499,6 +1526,11 @@
     <p class="appstore-note">
       <span class="en">$14.99 USD · iOS 26+ · iPhone 11+ · No data collected</span>
       <span class="fr">14,99 $ USD · iOS 26+ · iPhone 11+ · Aucune donnée collectée</span>
+    </p>
+    <p class="platform-note">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-6l1 2h2v1H7v-1h2l1-2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Zm0 2v10h16V6H4Z"/></svg>
+      <span class="en">macOS version included for horizontal recording</span>
+      <span class="fr">Version macOS incluse pour le tournage horizontal</span>
     </p>
   </div>
 </section>
